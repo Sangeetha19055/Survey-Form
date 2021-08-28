@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Form</title>
+</head>
+
+<body>
+    <section>
+       <!--Form -->
+        <form>
+            <label for="name">Name <span>*</span></label>
+            <input type="text" class="text-box tb1" required name="name">
+            <input type="text" class="text-box m-l m-5" required name="name"><br>
+            <b class="text-undername">First</b>
+            <b class="text-undername u-2">Last</b>
+            <br>
+
+            <label for="email" class="m-t">Email <span>*</span></label>
+            <input type="email" class="text-box w-50" required name="email">
+            <h4>Your Experience <span>*</span></h4>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <p>Overall, how would you experience with us?</p>
+
+            <!-- Table 1 -->
+            <h4 class="m-b">How satisfied are you with <span>*</span></h4>
+            <div style="overflow-x:auto;">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Very unsatisfied</th>
+                    <th>Unsatisfied</th>
+                    <th>Neutral</th>
+                    <th>Satisfied</th>
+                    <th>Very Satisfied</th>
+                </tr>
+                <tr>
+                    <td class="width-td1">Purchase</td>
+                    <td> <input type="radio" id="radio" name="Purchase" value=""></td>
+                    <td> <input type="radio" id="radio" name="Purchase" value=""></td>
+                    <td> <input type="radio" id="radio" name="Purchase" value=""></td>
+                    <td> <input type="radio" id="radio" name="Purchase" value=""></td>
+                    <td> <input type="radio" id="radio" name="Purchase" value=""></td>
+                </tr>
+                <tr>
+                    <td class="width-td1">Service</td>
+                    <td> <input type="radio" id="radio" name="Service" value=""></td>
+                    <td> <input type="radio" id="radio" name="Service" value=""></td>
+                    <td> <input type="radio" id="radio" name="Service" value=""></td>
+                    <td> <input type="radio" id="radio" name="Service" value=""></td>
+                    <td> <input type="radio" id="radio" name="Service" value=""></td>
+                </tr>
+                <tr>
+                    <td class="width-td1">Company Overall</td>
+                    <td> <input type="radio" id="radio" name="Company Overall" value=""></td>
+                    <td> <input type="radio" id="radio" name="Company Overall" value=""></td>
+                    <td> <input type="radio" id="radio" name="Company Overall" value=""></td>
+                    <td> <input type="radio" id="radio" name="Company Overall" value=""></td>
+                    <td> <input type="radio" id="radio" name="Company Overall" value=""></td>
+                </tr>
+            </table>
+            </div>
+            
+            <!--second Table -->
+            <h4 class="m-b">How likey are you to <span>*</span></h4>
+            <div style="overflow-x:auto;">
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Very Unlikely</th>
+                    <th>Unlikely</th>
+                    <th>Neutral</th>
+                    <th>Likely</th>
+                    <th>Very Likely</th>
+                </tr>
+                <tr>
+                    <td class="width-td">Buy from us again</td>
+                    <td> <input type="radio" id="radio" name="Buy from us again" value=""></td>
+                    <td> <input type="radio" id="radio" name="Buy from us again" value=""></td>
+                    <td> <input type="radio" id="radio" name="Buy from us again" value=""></td>
+                    <td> <input type="radio" id="radio" name="Buy from us again" value=""></td>
+                    <td> <input type="radio" id="radio" name="Buy from us again" value=""></td>
+                </tr>
+                <tr>
+                    <td class="width-td">Recommend our product to others</td>
+                    <td> <input type="radio" id="radio" name="Recommend our product to others" value=""></td>
+                    <td> <input type="radio" id="radio" name="Recommend our product to others" value=""></td>
+                    <td> <input type="radio" id="radio" name="Recommend our product to others" value=""></td>
+                    <td> <input type="radio" id="radio" name="Recommend our product to others" value=""></td>
+                    <td> <input type="radio" id="radio" name="Recommend our product to others" value=""></td>
+                </tr>
+                <tr>
+                    <td class="width-td">Recommend our company to others </td>
+                    <td> <input type="radio" id="radio" name="Recommend our company to others" value=""></td>
+                    <td> <input type="radio" id="radio" name="Recommend our company to others" value=""></td>
+                    <td> <input type="radio" id="radio" name="Recommend our company to others" value=""></td>
+                    <td> <input type="radio" id="radio" name="Recommend our company to others" value=""></td>
+                    <td> <input type="radio" id="radio" name="Recommend our company to others" value=""></td>
+                </tr>
+            </table>
+            </div>
+
+            <!-- Comments box -->
+            <h4 class="m-t">Additional comments or suggestions</h4>
+            <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+
+            <!-- submit button -->
+            <button class="m-t">Submit</button>
+
+        </form>
+    </section>
+</body>
+
+</html>
