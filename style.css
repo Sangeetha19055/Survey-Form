@@ -156,3 +156,8 @@ b{
     width: 100%;
 }
 }
+@media (max-width:625px){
+ .text-box{
+    width: 100%;
+}
+}
