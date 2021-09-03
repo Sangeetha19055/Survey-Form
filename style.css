@@ -141,7 +141,7 @@ button {
     margin-top: 10px;
 }
 }
-@media (max-width:600px){
+@media (max-width:625px){
     body {
     padding: 100px 10px;
 }
